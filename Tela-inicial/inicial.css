@@ -9,6 +9,11 @@
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 /* Banner e Topo */
@@ -231,6 +236,7 @@ table {
     border-radius: 4px;
     margin: auto;
     box-shadow: 0px 2px 40px 15px #5A189A;
+    overflow-x: auto
 }
 
 table thead th {
@@ -394,4 +400,199 @@ table tbody td {
 
 .copyright span {
     color: #5A189A;
+}
+
+/*Config de resposividade*/
+
+/*Smartphones*/
+@media screen and (max-width: 768px) {
+    
+    .secao-informacoes h2 {
+        width: 300px;
+        font-size: 22px;
+        margin: 0px auto 60px;
+    }
+
+    .card2 {
+        left: 9rem;
+    }
+
+    .secao-planos h2{
+        width: 300px;
+        font-size: 22px;
+        margin: 0px auto 60px;
+    }
+
+    .secao-planos {
+        padding: 50px 0px;
+    }
+
+    .secao-planos h2 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    table thead th h3 {
+        font-size: 14px;
+    }
+
+    table thead th img {
+        width: 60px;
+    }
+
+    table thead th p {
+        font-size: 10px;
+    }
+
+    tbody td {
+        padding: 8px 0px;
+    }
+
+    .topo-logo{
+        width: 40px;
+    }
+
+    .topo-logo p {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .topo-links {
+        position: absolute;
+        top: 95.5px;
+        left: 5.6rem;
+    }
+    
+    .topo-links a {
+        font-size: 12px;
+        padding: 0px 5px;
+        text-decoration: none;
+        font-weight: 600;
+        color: #233032;
+        position: relative;
+    }
+    
+    .container-banner div{
+        color: #fff;
+        width: 270px;
+        margin-left: 1rem;
+    }
+    
+    .container-banner div p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .container-banner div h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .container-banner img {
+        width: 45%;
+        position: absolute;
+        top: 240px;
+        left: 15.5rem;
+    }
+
+    .container-primeiro-anuncio {
+        position: relative;
+        padding: 50px 0;
+    }
+    
+    .container-primeiro-anuncio div {
+        width: 600px;
+        margin-bottom: 3rem;
+    }
+    
+    .container-primeiro-anuncio div h2 {
+        margin-bottom: 5px;
+        font-size: 18px;
+        margin-left: 1rem;
+    }
+
+    .container-primeiro-anuncio div p {
+        font-size: 15px;
+        margin-left: 1.5rem;
+    }
+
+    .container-primeiro-anuncio a {
+        margin-top: 5rem;
+        margin-right: 6rem;
+
+    }
+
+    .container-segundo-anuncio {
+        position: relative;
+        padding: 50px 0;
+    }
+    
+    .container-segundo-anuncio {
+        width: 600px;
+        margin-bottom: 3rem;
+    }
+    
+    .container-segundo-anuncio h2 {
+        margin-bottom: 50px;
+        font-size: 17px;
+        margin-left: 0.4rem;
+    }
+
+    .container-segundo-anuncio a {
+        margin-top: 3rem;
+        margin-right: 16.5rem;
+
+    }
+
+    .container-contatos {
+        text-align: center;
+        margin-bottom: 50px;
+        line-height: 40px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+    
+    
+}
+
+/*Dispositivos menores*/
+@media screen and (max-width: 390px) {
+    .container-primeiro-anuncio div h2 {
+        margin-bottom: 5px;
+        font-size: 16px;
+        margin-left: 1rem;
+    }
+
+    .container-primeiro-anuncio div p {
+        font-size: 13px;
+        margin-left: 1.8rem;
+    }
+
+    .container-primeiro-anuncio a {
+        margin-top: 5rem;
+        margin-right: 4.5rem;
+
+    }
+    
+    .container-segundo-anuncio h2 {
+        margin-bottom: 50px;
+        font-size: 15px;
+        margin-left: 0.8rem;
+    }
+
+    .container-segundo-anuncio a {
+        margin-top: 3rem;
+        margin-right: 17.5rem;
+
+    }
+
 }
